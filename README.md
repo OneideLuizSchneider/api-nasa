@@ -19,7 +19,7 @@ docker build -t apinasa:v1.0 .
 docker run --name apinasa -p 8081:8081 apinasa:v1.0 
 ```
 
-### Our NASA’s Mars Weather ###
+### Our API NASA’s Mars Weather ###
 We have one endpoint, and we can send a query param, like the example below: 
 ```
 /v1/nasa/temperature
