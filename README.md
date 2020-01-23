@@ -1,4 +1,4 @@
-# api-nasa
+# api-nasa - NASA’s Mars Weather
 Tools Version:
  * IDE    IntelliJ 2019.3.2
  * Gradle 6.0.1
@@ -19,7 +19,7 @@ docker build -t apinasa:v1.0 .
 docker run --name apinasa -p 8081:8081 apinasa:v1.0 
 ```
 
-### Our Nasa API Endpoint ###
+### Our NASA’s Mars Weather ###
 We have one endpoint, and we can send a query param, like the example below: 
 ```
 /v1/nasa/temperature
